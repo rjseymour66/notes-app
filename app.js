@@ -24,13 +24,13 @@ const url = 'mongodb://@ds141924.mlab.com:41924/notes-app'
 const dbName = 'notes-app'
 
 const mongoose = require('mongoose')
-mongoose.connect(url, {user: 'ryanseymour', pass: 'Maryjean@52'})
+mongoose.connect(url, {user: 'XXXXX', pass: 'XXXXX'})
 
 
 
 
 // Connecting to the database
-MongoClient.connect(url, {user: 'ryanseymour', pass: 'Maryjean@52'}, (err, client) => {
+MongoClient.connect(url, {user: 'XXXXXX', pass: 'XXXXXXX'}, (err, client) => {
   assert.equal(null, err);
   console.log('Connected successfully to the server');
 
